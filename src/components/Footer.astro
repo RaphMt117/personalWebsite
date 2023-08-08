@@ -1,5 +1,5 @@
 ---
-import {Icon} from 'astro-icon'
+import { Icon } from "astro-icon";
 ---
 
 <footer class="bg-gradient-to-b from-slate-950 to-neutral-950">
@@ -13,20 +13,29 @@ import {Icon} from 'astro-icon'
                         Contact
                     </h2>
                     <ul class="font-medium">
-                        
-                        <li class="mb-4 flex">
-                            <Icon name="linkedinIcon" class="text-neutral-400 w-5 object-center pb-1"/>
+                        <li
+                            class="mb-4 flex text-neutral-400 hover:text-gray-200"
+                        >
+                            <Icon
+                                name="linkedinIcon"
+                                class="w-5 object-center pb-1"
+                            />
                             <a
                                 href="https://www.linkedin.com/in/rafael-marques-e-torres/"
-                                class="text-neutral-400 hover:text-gray-200 hover:underline"
-                                >Linkedin</a
+                                target="_blank"
+                                class="hover:underline pl-1">Linkedin</a
                             >
                         </li>
-                        <li>
+                        <li
+                            class="mb-4 flex text-neutral-400 hover:text-gray-200"
+                        >
+                            <Icon
+                                name="discordIcon"
+                                class="w-5 object-center"
+                            />
                             <a
                                 href="https://discord.gg/qTQuNUScDa"
-                                class="text-neutral-400 hover:text-gray-200 hover:underline"
-                                >Discord</a
+                                class="hover:underline pl-1">Discord</a
                             >
                         </li>
                     </ul>
@@ -38,19 +47,21 @@ import {Icon} from 'astro-icon'
                         Follow me
                     </h2>
                     <ul class="font-medium">
-                        <li class="mb-4">
+                        <li class="mb-4 flex text-neutral-400 hover:text-gray-200">
+                            <Icon name="githubIcon" class="w-5 object-center" />
                             <a
                                 href="https://github.com/RaphMt117"
                                 target="_blank"
-                                class="text-neutral-400 hover:text-gray-200 hover:underline"
+                                class="hover:underline pl-1"
                                 >Github</a
                             >
                         </li>
-                        <li>
+                        <li class="mb-4 flex text-neutral-400 hover:text-gray-200">
+                            <Icon name="instagramIcon" class="w-5 object-center" />
                             <a
                                 href="https://www.instagram.com/_rafaellmt/"
                                 target="_blank"
-                                class="text-neutral-400 hover:text-gray-200 hover:underline"
+                                class="hover:underline pl-1"
                                 >Instagram</a
                             >
                         </li>
@@ -63,19 +74,28 @@ import {Icon} from 'astro-icon'
                         Built with
                     </h2>
                     <ul class="font-medium">
-                        <li class="mb-4">
+                        <li
+                            class="mb-4 flex text-neutral-400 hover:text-gray-200"
+                        >
+                            <Icon
+                                name="astroIcon"
+                                class="w-5 object-center pt-1"
+                            />
                             <a
                                 href="https://astro.build/"
                                 target="_blank"
-                                class="text-neutral-400 hover:text-gray-200 hover:underline"
-                                >Astro</a
+                                class="hover:underline pl-1">Astro</a
                             >
                         </li>
-                        <li>
+                        <li class="mb-4 flex text-neutral-400 hover:text-gray-200">
+                            <Icon
+                                name="tailwindIcon"
+                                class="w-5 object-center pt-1"
+                            />
                             <a
                                 href="https://tailwindcss.com/"
                                 target="_blank"
-                                class="text-neutral-400 hover:text-gray-200 hover:underline"
+                                class="hover:underline pl-1"
                                 >Tailwind</a
                             >
                         </li>
